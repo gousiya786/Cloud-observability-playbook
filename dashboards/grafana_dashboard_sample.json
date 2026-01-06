@@ -1,0 +1,10 @@
+{
+  "title": "Sample Service Dashboard",
+  "panels": [
+    { "type": "graph", "title": "Request Rate (RPS)" },
+    { "type": "graph", "title": "Error Rate (4xx/5xx)" },
+    { "type": "graph", "title": "Latency (P50/P95)" },
+    { "type": "graph", "title": "CPU / Memory" }
+  ],
+  "tags": ["observability", "sample", "grafana"]
+}
